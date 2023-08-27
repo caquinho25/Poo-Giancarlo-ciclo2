@@ -26,5 +26,4 @@ int main() {
         objeto->dibujar(lado);
         _sleep(50);
     }
-    getch();
 }
