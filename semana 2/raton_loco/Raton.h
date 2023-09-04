@@ -43,7 +43,7 @@ void CRaton::Mover()
 	if (x + dx < 0 || x + ancho + dx > 79) {
 		dx = -dx;
 	}
-	if (x + dx < 0 || x + alto + dx > 24) {
+	if (y + dy < 0 || y + alto + dy > 24) {
 		dy = -dy;
 	}
 	x = x + dx;
