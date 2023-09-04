@@ -3,7 +3,7 @@
 
 void main()
 {
-	CRaton objeto(40, 12);
+	CRaton* objeto(40, 12);
 	do
 	{
 		
